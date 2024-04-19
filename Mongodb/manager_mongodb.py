@@ -2,7 +2,7 @@ from pymongo import MongoClient
 from bson import ObjectId
 
 
-client = MongoClient("mongodb+srv://videospy:videospy@cluster0.1nmhzym.mongodb.net/",tlsAllowInvalidCertificates=True)
+client = MongoClient("#",tlsAllowInvalidCertificates=True)
 
 db = client["vManager"]
 video_collection = db["videos"]
